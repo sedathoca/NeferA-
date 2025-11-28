@@ -260,7 +260,7 @@ export default function BepDosyasiPage() {
 
   const form = useForm<BepFormValues>({
     resolver: zodResolver(bepFormSchema),
-    values: selectedStudentData.form, // Formu doğrudan merkezi state'e bağla
+    values: selectedStudentData?.form || {}, // Formu doğrudan merkezi state'e bağla
   });
 
   const { fields, append, remove } = useFieldArray({
