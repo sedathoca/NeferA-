@@ -48,7 +48,7 @@ const Toolbar = ({ onPageChange, currentPage, pageCount, drawingState, setDrawin
             <Button variant={drawingState.size === 5 ? 'secondary' : 'outline'} size="icon" title="Kalın" onClick={() => setDrawingState((s:any) => ({...s, size: 5}))}><Plus /></Button>
             <Button variant={drawingState.tool === 'eraser' ? 'secondary' : 'outline'} size="icon" title="Silgi" onClick={() => setDrawingState((s:any) => ({...s, tool: 'eraser'}))}><Eraser /></Button>
             <Button variant="outline" size="icon" title="Temizle" onClick={() => {
-                const drawCtx = document.getElementById('draw-canvas')?.getContext('2d');
+                // const drawCtx = document.getElementById('draw-canvas').getContext('2d');
                 if (drawCtx) {
                     drawCtx.clearRect(0, 0, drawCtx.canvas.width, drawCtx.canvas.height);
                 }
