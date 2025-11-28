@@ -1,0 +1,48 @@
+import { Holiday } from './types';
+
+// 2024-2025 Eğitim-Öğretim Yılı
+export const HOLIDAYS_2024_2025: Holiday[] = [
+  // 2024
+  { date: '2024-09-09', name: 'Okulların Açılması', type: 'okul' },
+  { date: '2024-10-28', name: 'Cumhuriyet Bayramı (Yarım Gün)', type: 'resmi' },
+  { date: '2024-10-29', name: 'Cumhuriyet Bayramı', type: 'resmi' },
+  { date: '2024-11-10', name: 'Atatürk\'ü Anma Günü', type: 'okul' },
+  { date: '2024-11-11', name: '1. Ara Tatil Başlangıcı', type: 'ara-tatil' },
+  { date: '2024-11-12', name: '1. Ara Tatil', type: 'ara-tatil' },
+  { date: '2024-11-13', name: '1. Ara Tatil', type: 'ara-tatil' },
+  { date: '2024-11-14', name: '1. Ara Tatil', type: 'ara-tatil' },
+  { date: '2024-11-15', name: '1. Ara Tatil Bitişi', type: 'ara-tatil' },
+  
+  // 2025
+  { date: '2025-01-01', name: 'Yılbaşı', type: 'resmi' },
+  { date: '2025-01-17', name: '1. Dönem Sonu', type: 'okul' },
+  { date: '2025-01-20', name: 'Yarıyıl Tatili Başlangıcı', type: 'yariyil' },
+  { date: '2025-01-21', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-22', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-23', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-24', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-27', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-28', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-29', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-30', name: 'Yarıyıl Tatili', type: 'yariyil' },
+  { date: '2025-01-31', name: 'Yarıyıl Tatili Bitişi', type: 'yariyil' },
+  { date: '2025-02-03', name: '2. Dönem Başı', type: 'okul' },
+  { date: '2025-03-29', name: 'Ramazan Bayramı Arifesi', type: 'dini' },
+  { date: '2025-03-30', name: 'Ramazan Bayramı 1. Gün', type: 'dini' },
+  { date: '2025-03-31', name: 'Ramazan Bayramı 2. Gün', type: 'dini' },
+  { date: '2025-04-01', name: 'Ramazan Bayramı 3. Gün', type: 'dini' },
+  { date: '2025-03-31', name: '2. Ara Tatil Başlangıcı', type: 'ara-tatil' },
+  { date: '2025-04-01', name: '2. Ara Tatil', type: 'ara-tatil' },
+  { date: '2025-04-02', name: '2. Ara Tatil', type: 'ara-tatil' },
+  { date: '2025-04-03', name: '2. Ara Tatil', type: 'ara-tatil' },
+  { date: '2025-04-04', name: '2. Ara Tatil Bitişi', type: 'ara-tatil' },
+  { date: '2025-04-23', name: 'Ulusal Egemenlik ve Çocuk Bayramı', type: 'resmi' },
+  { date: '2025-05-01', name: 'Emek ve Dayanışma Günü', type: 'resmi' },
+  { date: '2025-05-19', name: 'Atatürk\'ü Anma, Gençlik ve Spor Bayramı', type: 'resmi' },
+  { date: '2025-06-05', name: 'Kurban Bayramı Arifesi', type: 'dini' },
+  { date: '2025-06-06', name: 'Kurban Bayramı 1. Gün', type: 'dini' },
+  { date: '2025-06-07', name: 'Kurban Bayramı 2. Gün', type: 'dini' },
+  { date: '2025-06-08', name: 'Kurban Bayramı 3. Gün', type: 'dini' },
+  { date: '2025-06-09', name: 'Kurban Bayramı 4. Gün', type: 'dini' },
+  { date: '2025-06-20', name: 'Okulların Kapanışı', type: 'okul' },
+];
